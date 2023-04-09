@@ -1,0 +1,96 @@
+<resources>
+    <!-- Splash -->
+    <string name="app_name">Profile Creator</string>
+    <string name="version">Versión 1.0</string>
+    <string name="creator">Creado por: Mauricio Casillas</string>
+
+    <!-- Form -->
+    <string name="formInst">Llena todos los campos para crear tu perfil.</string>
+    <string name="formNameTool">Nombre</string>
+    <string name="formLastNameTool">Apellido</string>
+    <string name="nameHint">Escribe tu nombre(s)</string>
+    <string name="lastNameHint">Escribe tu apellido(s)</string>
+    <string name="birthHint">Elige tu fecha de nacimiento</string>
+    <string name="emailHint">Escribe tu correo electrónico</string>
+    <string name="numberHint">Escribe tu número de cuenta (9 dígitos)</string>
+    <string name="spinnerHint">Elige una carrera</string>
+    <string name="submit">Enviar Datos</string>
+    <string name="dateInst">Ingresa tu fecha de nacimiento</string>
+
+    <!-- Spinner options -->
+    <string-array name="spinnerOpt">
+        <item>Ingeniería Aeroespacial</item>
+        <item>Ingeniería Ambiental</item>
+        <item>Ingeniería Civil</item>
+        <item>Ingeniería en Computación</item>
+        <item>Ingeniería Eléctrica Electrónica</item>
+        <item>Ingeniería Geofísica</item>
+        <item>Ingeniería Geológica</item>
+        <item>Ingeniería Geomática</item>
+        <item>Ingeniería Industrial</item>
+        <item>Ingeniería Mecánica</item>
+        <item>Ingeniería Mecatrónica</item>
+        <item>Ingeniería de Minas y Metalurgia</item>
+        <item>Ingeniería Petrolera</item>
+        <item>Ingeniería en Telecomunicaciones</item>
+        <item>Ingeniería en Sistemas Biomédicos</item>
+    </string-array>
+
+    <!-- Form Warnings -->
+    <string name="nameWarning">Ingresa un nombre(s)</string>
+    <string name="lastNameWarning">Ingresa un apellido(s)</string>
+    <string name="emailWarning">Ingresa un correo válido</string>
+    <string name="numberWarning">Ingresa un número de cuenta válido</string>
+    <string name="birthWarning">Ingresa una fecha de nacimiento válida</string>
+
+    <!-- Zodiac -->
+    <string name="aries">Aries</string>
+    <string name="taurus">Tauro</string>
+    <string name="gemini">Geminis</string>
+    <string name="cancer">Cancer</string>
+    <string name="leo">Leo</string>
+    <string name="virgo">Virgo</string>
+    <string name="libra">Libra</string>
+    <string name="scorpio">Escorpio</string>
+    <string name="sagittarius">Sagitario</string>
+    <string name="capricorn">Capricornio</string>
+    <string name="aquarius">Acuario</string>
+    <string name="pisces">Piscis</string>
+
+    <string name="wrongDate">Fecha no válida</string>
+
+    <!-- Chinese  -->
+    <string name="rat">Rata</string>
+    <string name="ox">Buey</string>
+    <string name="tiger">Tigre</string>
+    <string name="rabbit">Conejo</string>
+    <string name="dragon">Dragón</string>
+    <string name="snake">Serpiente</string>
+    <string name="horse">Caballo</string>
+    <string name="goat">Cabra</string>
+    <string name="monkey">Mono</string>
+    <string name="rooster">Gallo</string>
+    <string name="dog">Perro</string>
+    <string name="pig">Puerco</string>
+
+    <string name="wrongChinese">No se puede calcular el horóscopo</string>
+
+    <!-- Element -->
+    <string name="metal">Metal</string>
+    <string name="water">Agua</string>
+    <string name="wood">Madera</string>
+    <string name="fire">Fuego</string>
+    <string name="earth">Tierra</string>
+
+    <string name="wrongElement">Error en el elemento</string>
+
+    <!-- Result -->
+    <string name="fullName">%1$s %2$s</string>
+    <string name="emailResult">Email: %s</string>
+    <string name="numberResult">Número de cuenta: %s</string>
+    <string name="age">Edad: %d</string>
+    <string name="zodiacResult">Signo del Zodiaco: %s</string>
+    <string name="chineseResult">Zodiaco Chino: %s</string>
+    <string name="elementResult">Elemento: %s</string>
+
+</resources>
