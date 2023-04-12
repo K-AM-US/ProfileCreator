@@ -92,5 +92,6 @@
     <string name="zodiacResult">Signo del Zodiaco: %s</string>
     <string name="chineseResult">Zodiaco Chino: %s</string>
     <string name="elementResult">Elemento: %s</string>
+    <string name="description">bgImage</string>
 
 </resources>

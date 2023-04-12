@@ -2,7 +2,6 @@ package com.example.profilecreator
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
 import androidx.databinding.DataBindingUtil
 import com.example.profilecreator.databinding.ActivityShowDataBinding
 
@@ -25,14 +24,14 @@ class ShowData : AppCompatActivity() {
             binding.age.text = getString(R.string.age, bundle.getInt("age", -1))
             binding.zodiacResult.text = getString(R.string.zodiacResult, bundle.getString("zodiac", ""))
             binding.chineseResult.text = getString(R.string.chineseResult, bundle.getString("chinese", ""))
-            binding.elementResult.text = bundle.getString("element", "")
-            selectBackgroundImage(bundle.getInt("engineering", -1))
+            binding.elementResult.text = getString(R.string.elementResult, bundle.getString("element", ""))
+            binding.bgImageSpinner.setImageResource(selectBackgroundImage(bundle.getInt("engineering", -1)))
         }
     }
 
-    fun selectBackgroundImage(image: Int){
-        Toast.makeText(this, "si está entrando", Toast.LENGTH_LONG)
-        when(image){
+    fun selectBackgroundImage(image: Int): Int{
+
+        return when(image){
             0 -> R.drawable.aeroespacial
             1 -> R.drawable.ambiental
             2 -> R.drawable.civil

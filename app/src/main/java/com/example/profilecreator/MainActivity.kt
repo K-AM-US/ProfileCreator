@@ -10,7 +10,6 @@ import android.widget.Spinner
 import android.widget.Toast
 import androidx.databinding.DataBindingUtil
 import com.example.profilecreator.databinding.ActivityMainBinding
-import java.io.DataOutput
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -58,17 +57,8 @@ class MainActivity : AppCompatActivity() {
                         .matches()
                 ) {
                     if (binding.number.text.isNotEmpty() && binding.number.text.length == 9) {
-                        if (todayFormat!!.after(birthFormat)) {
-                            /*Toast.makeText(
-                                this,
-                                "datos llenado de forma correcta y tienes ${getAge()} años, signo: ${
-                                    getZodiac(
-                                        birthFormat
-                                    )
-                                } y el signo chino es: ${getChinese(binding.datePicker.year)} con elemento: ${chineseElement(binding.datePicker.year)}, carrera: ${binding.spinner.selectedItemId}",
-                                Toast.LENGTH_SHORT
-                            ).show()*/
 
+                        if (todayFormat!!.after(birthFormat)) {
                             bundle.putString("name", binding.name.text.toString())
                             bundle.putString("lastName", binding.lastName.text.toString())
                             bundle.putString("email", binding.email.text.toString())
@@ -183,7 +173,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun chineseElement(year: Int): String {
-        var element: Int = year % 10
+        val element: Int = year % 10
         return when(element){
             0, 1 -> resources.getString(R.string.metal)
             2, 3 -> resources.getString(R.string.water)
