@@ -44,43 +44,44 @@
     <string name="birthWarning">Ingresa una fecha de nacimiento válida</string>
 
     <!-- Zodiac -->
-    <string name="aries">Aries</string>
-    <string name="taurus">Tauro</string>
-    <string name="gemini">Geminis</string>
-    <string name="cancer">Cancer</string>
-    <string name="leo">Leo</string>
-    <string name="virgo">Virgo</string>
-    <string name="libra">Libra</string>
-    <string name="scorpio">Escorpio</string>
-    <string name="sagittarius">Sagitario</string>
-    <string name="capricorn">Capricornio</string>
-    <string name="aquarius">Acuario</string>
-    <string name="pisces">Piscis</string>
+    <string name="aries">Aries &#x2348;</string>
+    <string name="taurus">Tauro &#x2649;</string>
+    <string name="gemini">Geminis &#x264A;</string>
+    <string name="cancer">Cancer &#x264B;</string>
+    <string name="leo">Leo &#x264C;</string>
+    <string name="virgo">Virgo &#x264D;</string>
+    <string name="libra">Libra &#x264E;</string>
+    <string name="scorpio">Escorpio &#x264F;</string>
+    <string name="sagittarius">Sagitario &#x2650;</string>
+    <string name="capricorn">Capricornio
+    &#x2651;</string>
+    <string name="aquarius">Acuario &#x2652;</string>
+    <string name="pisces">Piscis &#x2653;</string>
 
     <string name="wrongDate">Fecha no válida</string>
 
     <!-- Chinese  -->
-    <string name="rat">Rata</string>
-    <string name="ox">Buey</string>
-    <string name="tiger">Tigre</string>
-    <string name="rabbit">Conejo</string>
-    <string name="dragon">Dragón</string>
-    <string name="snake">Serpiente</string>
-    <string name="horse">Caballo</string>
-    <string name="goat">Cabra</string>
-    <string name="monkey">Mono</string>
-    <string name="rooster">Gallo</string>
-    <string name="dog">Perro</string>
-    <string name="pig">Puerco</string>
+    <string name="rat">Rata &#x1F400;</string>
+    <string name="ox">Buey &#x1F402;</string>
+    <string name="tiger">Tigre &#x1F405;</string>
+    <string name="rabbit">Conejo &#x1F407;</string>
+    <string name="dragon">Dragón &#x1F409;</string>
+    <string name="snake">Serpiente &#x1F40D;</string>
+    <string name="horse">Caballo &#x1F40E;</string>
+    <string name="goat">Cabra &#x1F410;</string>
+    <string name="monkey">Mono &#x1F412;</string>
+    <string name="rooster">Gallo &#x1F983;</string>
+    <string name="dog">Perro &#x1F415;</string>
+    <string name="pig">Puerco &#x1F416;</string>
 
     <string name="wrongChinese">No se puede calcular el horóscopo</string>
 
     <!-- Element -->
-    <string name="metal">Metal</string>
-    <string name="water">Agua</string>
-    <string name="wood">Madera</string>
-    <string name="fire">Fuego</string>
-    <string name="earth">Tierra</string>
+    <string name="metal">Metal &#x1FAA8;</string>
+    <string name="water">Agua &#x1F4A7;</string>
+    <string name="wood">Madera &#x1FAB5;</string>
+    <string name="fire">Fuego &#x1F525;</string>
+    <string name="earth">Tierra &#x26F0;</string>
 
     <string name="wrongElement">Error en el elemento</string>
 
@@ -88,10 +89,19 @@
     <string name="fullName">%1$s %2$s</string>
     <string name="emailResult">Email: %s</string>
     <string name="numberResult">Número de cuenta: %s</string>
-    <string name="age">Edad: %d</string>
+    <string name="age">Edad: %d año(s) cumplido(s)</string>
     <string name="zodiacResult">Signo del Zodiaco: %s</string>
     <string name="chineseResult">Zodiaco Chino: %s</string>
     <string name="elementResult">Elemento: %s</string>
     <string name="description">bgImage</string>
+
+    <!-- Tools -->
+    <string name="toolName">NOMBRE COMPLETO</string>
+    <string name="toolEmail">CORREO</string>
+    <string name="toolNumber">NUMERO DE CUENTA</string>
+    <string name="toolAge">EDAD</string>
+    <string name="toolZodiac">SIGNO DEL ZODIACO</string>
+    <string name="toolChinese">SIGNO CHINO</string>
+    <string name="toolElement">ELEMENTO</string>
 
 </resources>

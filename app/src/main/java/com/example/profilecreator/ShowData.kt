@@ -17,6 +17,7 @@ class ShowData : AppCompatActivity() {
 
         val bundle = intent.extras
 
+
         if(bundle != null){
             binding.nameResult.text = getString(R.string.fullName, bundle.getString("name", ""), bundle.getString("lastName", ""))
             binding.emailResult.text = getString(R.string.emailResult, bundle.getString("email",""))
