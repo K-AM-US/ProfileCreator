@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- startskärm -->
+    <string name="app_name">Profile Creator</string>
+    <string name="version">Version</string>
+    <string name="creator">Skapad av: Mauricio Casillas</string>
+
+    <!-- form -->
+    <string name="formInst">Fyll i alla fält för att skapa din profil</string>
+    <string name="formNameTool">Namn</string>
+    <string name="formLastNameTool">Efternamn</string>
+    <string name="nameHint">Skriv ditt namn</string>
+    <string name="lastNameHint">Skriv ditt efternamn</string>
+    <string name="birthHint">Välj ditt födelsedatum</string>
+    <string name="emailHint">Skriv din e-post</string>
+    <string name="numberHint">Skriv ditt kontonummer (9 siffror)</string>
+    <string name="spinnerHint">Välja en karriär</string>
+    <string name="submit">Skicka data</string>
+    <string name="dateInst">Ange ditt födelsedatum</string>
+
+    <!-- spinneralternativ -->
+    <string-array name="spinnerOpt">
+        <item>Flyg-och rymdteknik</item>
+        <item>Miljöteknik</item>
+        <item>civilingenjör</item>
+        <item>Datorteknik</item>
+        <item>Elektronikteknik</item>
+        <item>Geofysisk teknik</item>
+        <item>Geologisk teknik</item>
+        <item>Geomatikteknik</item>
+        <item>Industriteknik</item>
+        <item>Maskinteknik</item>
+        <item>Mekatronikteknik</item>
+        <item>Gruvdrift och metallurgisk teknik</item>
+        <item>Petroleumteknik</item>
+        <item>Telekommunikationsteknik</item>
+        <item>Biomedicinsk systemteknik</item>
+    </string-array>
+
+    <!-- form varning -->
+    <string name="nameWarning">Ange ett namn</string>
+    <string name="lastNameWarning">Ange ett efternamn</string>
+    <string name="emailWarning">Ange en giltig e-postadress</string>
+    <string name="numberWarning">Ange ett giltigt kontonummer</string>
+    <string name="birthWarning">Var vänlig ange ett giltigt födelsedatum</string>
+
+    <!-- zodiaken -->
+    <string name="aries">Väduren &#x2348;</string>
+    <string name="taurus">Oxen &#x2649;</string>
+    <string name="gemini">Tvillingarna &#x264A;</string>
+    <string name="cancer">Kräftan &#x264B;</string>
+    <string name="leo">Lejonet &#x264C;</string>
+    <string name="virgo">Jungfrun &#x264D;</string>
+    <string name="libra">Vågen &#x264E;</string>
+    <string name="scorpio">Skorpionen &#x264F;</string>
+    <string name="sagittarius">Skytten &#x2650;</string>
+    <string name="capricorn">Stenbocken &#x2651;</string>
+    <string name="aquarius">Vattumannen &#x2652;</string>
+    <string name="pisces">Fiskarna &#x2653;</string>
+
+    <string name="wrongDate">Ogiltigt datum</string>
+
+    <!-- kinesiska -->
+    <string name="rat">Råtta &#x1F400;</string>
+    <string name="ox">Oxe &#x1F402;</string>
+    <string name="tiger">Tiger &#x1F405;</string>
+    <string name="rabbit">Kanin &#x1F407;</string>
+    <string name="dragon">Drake &#x1F409;</string>
+    <string name="snake">Orm &#x1F40D;</string>
+    <string name="horse">Häst &#x1F40E;</string>
+    <string name="goat">Get &#x1F410;</string>
+    <string name="monkey">Apa &#x1F412;</string>
+    <string name="rooster">Tupp &#x1F983;</string>
+    <string name="dog">Hund &#x1F415;</string>
+    <string name="pig">Gris &#x1F416;</string>
+
+    <string name="wrongChinese">Kan inte beräkna horoskop</string>
+
+    <!-- Element -->
+    <string name="metal">Metall &#x1FAA8;</string>
+    <string name="water">Vatten &#x1F4A7;</string>
+    <string name="wood">Trä &#x1FAB5;</string>
+    <string name="fire">Brand &#x1F525;</string>
+    <string name="earth">Landa &#x26F0;</string>
+
+    <string name="wrongElement">Elementfel</string>
+
+    <!-- resultat -->
+    <string name="fullName">%1$s %2$s</string>
+    <string name="emailResult">E-post: %s</string>
+    <string name="numberResult">Kontonummer: %s</string>
+    <string name="age">Ålder: %d år gammal</string>
+    <string name="zodiacResult">Stjärntecken:%s</string>
+    <string name="chineseResult">Kinesiska stjärntecken: %s</string>
+    <string name="elementResult">Element: %s</string>
+    <string name="description">bakgrundsbild</string>
+
+    <!-- verktyg -->
+    <string name="toolName">FULLSTÄNDIGA NAMN</string>
+    <string name="toolEmail">E-POST</string>
+    <string name="toolNumber">KONTONUMMER</string>
+    <string name="toolAge">ÅLDER</string>
+    <string name="toolZodiac">STJÄRNTECKEN</string>
+    <string name="toolChinese">KINESISKT STÄRNTECKEN</string>
+    <string name="toolElement">ELEMENT</string>
+
+</resources>
