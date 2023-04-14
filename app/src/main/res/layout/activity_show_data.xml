@@ -14,7 +14,7 @@
         android:id="@+id/bgImageSpinner"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:alpha="0.1"
+        android:alpha="0.15"
         android:src="@drawable/blank"
         android:contentDescription="@string/description"
         tools:layout_editor_absoluteX="0dp"

@@ -2,7 +2,7 @@
     <!-- Splash -->
     <string name="app_name">Profile Creator</string>
     <string name="version">Versión 1.0</string>
-    <string name="creator">Creado por: Mauricio Casillas</string>
+    <string name="creator">Creado por\n Mauricio Casillas</string>
 
     <!-- Form -->
     <string name="formInst">Llena todos los campos para crear tu perfil.</string>
@@ -87,12 +87,12 @@
 
     <!-- Result -->
     <string name="fullName">%1$s %2$s</string>
-    <string name="emailResult">Email: %s</string>
-    <string name="numberResult">Número de cuenta: %s</string>
-    <string name="age">Edad: %d año(s) cumplido(s)</string>
-    <string name="zodiacResult">Signo del Zodiaco: %s</string>
-    <string name="chineseResult">Zodiaco Chino: %s</string>
-    <string name="elementResult">Elemento: %s</string>
+    <string name="emailResult">Email:\n%s</string>
+    <string name="numberResult">Número de cuenta:\n%s</string>
+    <string name="age">Edad:\n%d año(s) cumplido(s)</string>
+    <string name="zodiacResult">Signo del Zodiaco:\n%s</string>
+    <string name="chineseResult">Zodiaco Chino:\n%s</string>
+    <string name="elementResult">Elemento:\n%s</string>
     <string name="description">bgImage</string>
 
     <!-- Tools -->
