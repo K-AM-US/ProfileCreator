@@ -95,12 +95,16 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun getAge(): Int {
-        return if (today.get(Calendar.DAY_OF_MONTH) < binding.datePicker.dayOfMonth.toString()
-                .toInt() && today.get(Calendar.MONTH) < binding.datePicker.month.toString().toInt()
-        )
+        return if(today.get(Calendar.MONTH) < binding.datePicker.month)
             today.get(Calendar.YEAR) - binding.datePicker.year.toString().toInt() - 1
-        else
+        else if(today.get(Calendar.MONTH) > binding.datePicker.month)
             today.get(Calendar.YEAR) - binding.datePicker.year.toString().toInt()
+        else{
+            if(today.get(Calendar.DAY_OF_MONTH) > binding.datePicker.dayOfMonth.toString().toInt())
+                today.get(Calendar.YEAR) - binding.datePicker.year.toString().toInt()
+            else
+                today.get(Calendar.YEAR) - binding.datePicker.year.toString().toInt() -1
+        }
     }
 
     fun getZodiac(birth: Date?): String {
