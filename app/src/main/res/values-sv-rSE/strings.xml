@@ -92,7 +92,7 @@
     <string name="age">Ålder: %d år gammal</string>
     <string name="zodiacResult">Stjärntecken:%s</string>
     <string name="chineseResult">Kinesiska stjärntecken: %s</string>
-    <string name="elementResult">Element: %s</string>
+    <string name="elementResult">Kinesiskt element: %s</string>
     <string name="description">bakgrundsbild</string>
 
     <!-- verktyg -->

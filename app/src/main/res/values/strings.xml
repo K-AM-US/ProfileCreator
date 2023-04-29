@@ -91,7 +91,7 @@
     <string name="age">Edad:\n%d año(s) cumplido(s)</string>
     <string name="zodiacResult">Signo del Zodiaco:\n%s</string>
     <string name="chineseResult">Zodiaco Chino:\n%s</string>
-    <string name="elementResult">Elemento:\n%s</string>
+    <string name="elementResult">Elemento chino:\n%s</string>
     <string name="description">bgImage</string>
 
     <!-- Tools -->
